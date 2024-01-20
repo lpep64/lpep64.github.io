@@ -9,17 +9,25 @@
     <style>
         body {
             font-family: 'Open Sans', sans-serif;
-            background-color: black; /* Set the background color to black */
-            color: white; /* Set the text color to white */
+            background-color: black;
+            color: white;
         }
 
         header {
-            background-color: #333; /* Adjust header background color if needed */
+            background-color: #333;
             padding: 1em 0;
         }
 
+        nav ul {
+            list-style-type: none;
+            display: flex;
+            justify-content: space-around;
+            padding: 0;
+        }
+
         nav a {
-            color: white; /* Set navigation text color to white */
+            color: white;
+            text-decoration: none;
         }
 
         nav a:hover {
@@ -27,8 +35,10 @@
         }
 
         .project {
-            background-color: #222; /* Adjust project card background color if needed */
-            color: white; /* Set project card text color to white */
+            background-color: #222;
+            color: white;
+            padding: 1em;
+            margin-bottom: 1em;
         }
 
         footer {
@@ -44,19 +54,19 @@
     <header>
         <nav>
             <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#about" aria-label="About">About</a></li>
+                <li><a href="#projects" aria-label="Projects">Projects</a></li>
+                <li><a href="#contact" aria-label="Contact">Contact</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section id="about">
+        <section id="about" aria-label="About Me">
             <h1>About Me</h1>
             <p>Hello! I'm a software engineer specializing in front-end development. My passion lies in creating intuitive and user-friendly web experiences.</p>
             <p>Feel free to browse through my portfolio and learn more about my projects. If you have any questions or would like to collaborate, please don't hesitate to get in touch!</p>
         </section>
-        <section id="projects">
+        <section id="projects" aria-label="My Projects">
             <h2>My Projects</h2>
             <div class="project">
                 <h3>Project 1</h3>
@@ -70,7 +80,7 @@
             </div>
             <!-- Add more projects as needed -->
         </section>
-        <section id="contact">
+        <section id="contact" aria-label="Contact Me">
             <h2>Contact Me</h2>
             <p>If you'd like to get in touch, you can find me on:</p>
             <ul>
