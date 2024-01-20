@@ -23,4 +23,4 @@ This portfolio showcases my skills, projects, and experiences as a [Your Profess
 Thank you for visiting my portfolio!
 
 [Luke Pepin]
-[(https://lpep64.github.io/)https://lpep64.github.io/]
+[https://lpep64.github.io/]
