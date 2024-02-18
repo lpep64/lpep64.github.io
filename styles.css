@@ -11,13 +11,14 @@ body {
 }
 
 h1, h2, h3 {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: #fff; /* White headers */
 }
 
 header {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   display: flex;
   align-items: center;
-  background-color: #333;
   color: #fff;
   padding: 20px 0;
   position: sticky;
@@ -35,7 +36,7 @@ header nav {
 
 header nav ul {
   list-style-type: none;
-  padding: 0;
+  font-size: 32px;
   display: flex;
   justify-content: space-around;
 }
@@ -51,15 +52,18 @@ header nav ul li a:hover {
 }
 
 .main {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: #ddd;
 }
 
 .project {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   margin-bottom: 20px;
   color: #ddd;
 }
 
 .project a {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   display: inline-block;
   background-color: #444; /* Darker button color */
   color: #fff; /* White button text */
@@ -70,37 +74,4 @@ header nav ul li a:hover {
 
 .project a:hover {
   background-color: #666; /* Even darker on hover */
-}
-
-.icon-text {
-  display: flex;
-  align-items: center;
-}
-
-.icon-text a {
-  text-decoration: none;
-  color: white; /* change the link text color */
-}
-
-.icon-text span {
-  margin-left: 10px; /* add some space between the icon and text */
-}
-
-.icon-list {
-  list-style-type: none;
-}
-
-.icon-list li {
-  display: flex;
-  align-items: center;
-  margin-bottom: 10px;
-}
-
-.icon-list a {
-  text-decoration: none;
-  color: white;
-}
-
-.icon-list img {
-  margin-right: 10px;
 }
