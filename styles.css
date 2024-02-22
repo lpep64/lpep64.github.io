@@ -1,9 +1,8 @@
-/* General styling */
 body {
   font-family: 'Open Sans', sans-serif;
   line-height: 1.6;
-  color: #ddd; /* Lighter text color */
-  background: url('images/background.jpg') no-repeat center center fixed; 
+  color: #ddd;
+  background: url('images/background.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -12,6 +11,19 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+header {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  padding: 10px 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 main {
@@ -23,26 +35,15 @@ main {
   text-align: center;
   font-size: large;
   width: 1000px;
-  height: 700px;
+  min-height: 500px;
+  z-index: 1;
 }
 
-/* Headers */
 h1, h2, h3 {
   text-align: center;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  color: #fff; /* White headers */
-  margin-bottom: 20px; /* Add margin between headers */
-}
-
-/* Header styling */
-header {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  display: flex;
-  align-items: center;
   color: #fff;
-  padding: 10px 0;
-  position: sticky;
-  top: 0;
+  margin-bottom: 20px;
 }
 
 header nav {
@@ -57,26 +58,16 @@ header nav ul {
 }
 
 header nav ul li a {
-  color: #fff; /* Change link color to white */
+  color: #fff;
   text-decoration: none;
-  margin: 0 100px;
+  margin: 0 20px;
 }
 
 header nav ul li a:hover {
-  color: #fff; /* White on hover */
+  color: #fff;
   text-decoration: underline;
 }
 
-/* Main content */
-.main {
-  text-align: center;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  color: #ddd;
-  max-width: 800px;
-  width: 100%;
-}
-
-/* Projects */
 .project {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   margin-bottom: 20px;
@@ -86,18 +77,17 @@ header nav ul li a:hover {
 .project a {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   display: inline-block;
-  background-color: #444; /* Darker button color */
-  color: white; /* White button text */
+  background-color: #444;
+  color: white;
   padding: 10px 20px;
   border-radius: 5px;
   text-decoration: none;
 }
 
 .project a:hover {
-  background-color: #666; /* Even darker on hover */
+  background-color: #666;
 }
 
-/* Link styling */
 a {
   color: blueviolet;
 }
