@@ -3,9 +3,6 @@ body {
   line-height: 1.6;
   color: #ddd;
   background: url('images/background.jpg') no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
   padding: 20px;
   display: flex;
@@ -18,29 +15,29 @@ header {
   display: flex;
   align-items: center;
   color: #fff;
-  padding: 10px 0;
-  position: sticky;
+  padding: 5px 0;
   top: 0;
+  left: 0;
   z-index: 100;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
+  border-bottom: 2px solid blueviolet;
 }
+
 
 main {
   background-color: #141414;
   padding: 20px;
-  margin: 20px;
-  border-radius: 20px;
+  margin: 50px;
+  border-radius: 30px;
   align-items: center;
   text-align: center;
   font-size: large;
-  width: 1000px;
-  min-height: 500px;
+  width: 1250px;
+  min-height: 700px;
   z-index: 1;
 }
 
 h1, h2, h3 {
-  text-align: center;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: #fff;
   margin-bottom: 20px;
@@ -66,6 +63,44 @@ header nav ul li a {
 header nav ul li a:hover {
   color: #fff;
   text-decoration: underline;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center; /* Center the content horizontally */
+}
+
+.text {
+  margin-right: 20px; 
+}
+
+.intro-text {
+  text-align: left;
+  padding: 30px;
+}
+
+.icon img {
+  width: 60px;
+  height: 60px;
+  margin: 0px;
+  padding: 10px;
+}
+
+.icon-list li {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+
+
+img {
+  margin-top: 100px;
+  width: 300px;
+  border-radius: 10px; 
+  padding: 10px;
+  border: 2px solid blueviolet;
 }
 
 .project {
